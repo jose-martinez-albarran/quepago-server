@@ -77,7 +77,7 @@ app.locals.title = 'Express - Generated with IronGenerator';
 // ADD CORS SETTINGS HERE TO ALLOW CROSS-ORIGIN INTERACTION:
 app.use(cors({
   credentials: true,
-  origin: ['http://localhost:3000']
+  origin: ['https://boiling-sea-73617.herokuapp.com']
 }));
 
 // ROUTES MIDDLEWARE STARTS HERE:
